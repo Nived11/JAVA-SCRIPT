@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joystick.com</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="circlediv">
+            <div id="circle"></div>
+        </div>
+        <div class="arrowkeys">
+            <button class="top" onclick="up()"><img class="keys" src="./images/up-arrow-key.png" alt=""> </button><br>
+            <button class="left" onclick="left()"><img  class="keys" src="./images/left-arrow.png" alt=""></button>
+            <button class="center" onclick="cntr()"><img class="keys" src="./images/rec.png" alt=""></button>
+            <button class="right" onclick="rgt()"><img  class="keys" src="./images/right-arrow.png" alt=""></button><br>
+            <button class="down" onclick="dwn()"><img  class="keys" src="./images/down-arrow.png" alt=""></button>
+        </div>
+    </div>
+
+    <script src="./joystick.js"></script>
+</body>
+</html>

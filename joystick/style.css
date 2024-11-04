@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+.main{
+    height: auto;
+    width: auto;
+    background-color: black;
+}
+.circlediv{
+    background-color: rgb(54, 84, 167);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#circle{
+   border-radius: 50%;
+   background-color: rgb(45, 128, 41);
+   height: 80px;
+   width: 80px;
+   position: absolute;
+}
+.arrowkeys{
+    margin: 0px;
+    height: 300px;
+    /* background-color: rgb(67, 112, 111);  */
+}
+
+.button{
+    height: 50px;
+    width: 50px;
+   
+}
+button :hover{
+    cursor: pointer;
+}
+.keys{
+    height: 50px;
+    width: 50px;
+    border-radius: 0px;
+}
+.top{
+    margin-top: 20px;
+    margin-left: 1200px;
+    border-radius: 5px;
+}
+.left{
+    margin-left: 1130px;
+    border-radius: 5px;
+}
+.center{
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.right{
+    border-radius: 5px;
+}
+.down{
+    margin-top: 5px;
+    margin-left: 1200px;
+    border-radius: 5px;
+}
